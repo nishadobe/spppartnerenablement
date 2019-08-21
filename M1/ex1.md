@@ -6,7 +6,7 @@ The URL to login to Adobe Experience Platform is: [https://platform.adobe.com](h
 
 **Attention!**
 
-Please have a look at your computer's number and memorize it. As part of this exercise you'll need to specify your computer's number when you:
+You have been assigned a number. As part of this exercise you'll need to specify your that number when you:
 
   * Create XDM Schema's
   * Create Datasets
@@ -25,15 +25,15 @@ There are 2 types of data that we want to capture:
   * Who is this customer?
   * What does this customer do?
 
-However, the question ```Who is this customer?``` is a very open question that has many answers. When BT UK wants to see this question answered, they are looking for demographic information like First Name, Last Name and Address. But also for contact information like an Email Address or a Mobile Phone Number. Ans also for information linked to Language, OptIn/OptOut and maybe even Profile Pictures. And finally, what we really need to know, is how we'll be identifying this customer in the various systems that BT will use.
+However, the question ```Who is this customer?``` is a very open question that has many answers. When Luma wants to see this question answered, they are looking for demographic information like First Name, Last Name and Address. But also for contact information like an Email Address or a Mobile Phone Number. Ans also for information linked to Language, OptIn/OptOut and maybe even Profile Pictures. And finally, what we really need to know, is how we'll be identifying this customer in the various systems that Luma will use.
 
-The same thing goes for the question ```What does this customer do?```. It's a very open question with many answers. When BT UK wants to see this question answered, they are looking for any interaction a customer has has had with any of their online properties. Which pages or products have been visited? Has this customer added a product to his cart or even purchased an item? What device and browser has been used to browse the website? What kind of information is this customer looking for and how can we use that to configure and deliver a delightful experience to this customer? And finally, what we really need to know, is how we'll be identifying this customer in the various systems that BT will use.
+The same thing goes for the question ```What does this customer do?```. It's a very open question with many answers. When Luma wants to see this question answered, they are looking for any interaction a customer has has had with any of their online properties. Which pages or products have been visited? Has this customer added a product to his cart or even purchased an item? What device and browser has been used to browse the website? What kind of information is this customer looking for and how can we use that to configure and deliver a delightful experience to this customer? And finally, what we really need to know, is how we'll be identifying this customer in the various systems that Luma will use.
 
 ### Exercise 1.1 - Who is this customer?
 
-Capturing the answer to ```Who is this customer?``` for BT is done through the Login/Registration-page.
+Capturing the answer to ```Who is this customer?``` for Luma is done through the Login/Registration-page.
 
-![Data Ingestion](./images/register.png)
+![Data Ingestion](./images/7.png)
 
 From a Schema perspective, we look at this from a 'Class'-perspective. The question: ```Who is this customer?```is something that we define in the Class "Profile".
 
@@ -41,7 +41,7 @@ So when you create an XDM Schema to capture the answer to ```Who is this custome
 
 To specify what kind of answers can be given to that question, you'll need to define Mixins. Mixins are extensions of the Profile-class, and have very specific configurations. For instance, demographic information like First Name, Last Name, Gender and Birthday are part of the Mixin: ```Profile Person Details```.
 
-Secondly, BT needs to decide how they will identify this customer. In the case of BT, the main identifier for a known customer will be a specific customer ID, like for instance an email address. But technically, there are other ways of identifying a customer at BT, like using a mobile phone number.
+Secondly, Luma needs to decide how they will identify this customer. In the case of Luma, the main identifier for a known customer will be a specific customer ID, like for instance an email address. But technically, there are other ways of identifying a customer at Luma, like using a mobile phone number.
 In this lab, we'll define the email address as the primary identifier and the phone number as a secondary identifier.
 
 Lastly, it's important to distinguish the channel on which data was captured. In this case, we'll be talking about Website Registrations and the schema that needs to be defined needs to reflect ```Where``` the registration data was captured. The channel will also have an important role in influencing what data is captured. As such, it's a best practice to define schema's for every combination of channel, primary identifier and type of data collected.
@@ -50,8 +50,8 @@ Based on the above, you'll need to configure a Schema in Adobe Experience Platfo
 
 Log in to Adobe Experience Platform by going to this URL: [https://platform.adobe.com](https://platform.adobe.com)
 
-  * Your Username is: PS4-XX@adobeeventlab.com (XX = your computer number)
-  * Your Password is: Adobe#Event10
+  * Your Username is: your Adobe ID
+  * Your Password is: your personbal password
 
 After logging in, you'll land on the homepage of Adobe Experience Platform.
 
@@ -69,29 +69,29 @@ You should create a new schema. To create a new schema, click on the button ```+
 
 ![Data Ingestion](./images/createschema.png)
 
-After clicking the ```+ Create Schema```button, you'll see an empty, new schema. 
+After clicking the ```+ Create Schema```button, you'll see an empty, new schema. Click on the ``Untitleed Schema``-field tto change the name of the schema.
 
 ![Data Ingestion](./images/emptyschema.png)
 
 Let's first name your schema. Please use the following naming for your schema:
 
-Look at your computer and locate the computer's number.
-**XX** = the number of your tech lab computer.
+Remember your specific number and use it below.
+**XX** = your number.
 
 Example:
 
-  * Computer 1 > replace XX with 01
-  * Computer 75 > replace XX with 75
+  * Number 1 > replace XX with 01
+  * Number 75 > replace XX with 75
 
 As the name for our schema, we'll use this:
-**LAB8 - XX - Website Registration Schema**
+**SPP - XX - Website Registration Schema**
 
-Replace XX with your computer's number. 
+Replace XX with your number. 
 
 Example:
 
-  * Computer 1 > LAB8 - **01** - Website Registration Schema
-  * Computer 75 > LAB8 - **75** - Website Registration Schema
+  * Number 1 > SPP - **01** - Website Registration Schema
+  * Number 75 > SPP - **75** - Website Registration Schema
 
 That should give you something like this:
 ![Data Ingestion](./images/schemaname.png)
@@ -131,7 +131,7 @@ To make that information part of your schema, you need to add the following Mixi
   * Profile Person Details (Demographic Information)
   * Profile Personal Details (Contact Information)
   * Profile Preferences Details (Other Information)
-  * BT Profile Identification (Primary and Secondary Identifiers)
+  * SPP Profile Identification (Primary and Secondary Identifiers)
 
 You can add these Mixins by clicking the ```+ Add```-button below the Class that you just defined.
 
@@ -173,13 +173,13 @@ Click the ```Add Mixin```-button to add the Mixin to your schema.
 
 ![Data Ingestion](./images/addmixin1.png)
 
-Lastly, add the Mixin **BT Profile Identification**.
+Lastly, add the Mixin **SPP Profile Identification**.
 
 Click the ```+ Add```-button to start adding a Mixin.
 
-In the "Add Mixin"-screen, select the Mixin ```BT Profile Identification```.
+In the "Add Mixin"-screen, select the Mixin ```SPP Profile Identification```.
 
-![Data Ingestion](./images/btpd.png)
+![Data Ingestion](./images/Lumapd.png)
 
 Click the ```Add Mixin```-button to add the Mixin to your schema.
 
@@ -272,7 +272,7 @@ Finally, click ```Save``` to save your schema.
 
 ### Exercise 1.2 - What does this customer do?
 
-Capturing the answer to ```What does this customer do?``` for BT is done through f.i. a Product View on a Product Page.
+Capturing the answer to ```What does this customer do?``` for Luma is done through f.i. a Product View on a Product Page.
 
 ![Data Ingestion](./images/productview.png)
 
@@ -282,7 +282,7 @@ So when you create an XDM Schema to capture the answer to ```Who is this custome
 
 To specify what kind of answers can be given to that question, you'll need to define Mixins. Mixins are extensions of the Experience Event-class, and have very specific configurations. For instance, information about what kind of products a customer viewed or added to their cart is part of the Mixin ```ExperienceEvent Commerce Details```.
 
-Secondly, BT needs to decide how they will identify the behavior of this customer. Since we're talking about interactions on a website, it's possible that BT knows the customer but it's equally possible that an unknown, anonymous visitor is active on the website. So we can't use an identifier like email-address. In this case, BT has decided to use the Experience Cloud ID (ECID) as the primary identifier.
+Secondly, Luma needs to decide how they will identify the behavior of this customer. Since we're talking about interactions on a website, it's possible that Luma knows the customer but it's equally possible that an unknown, anonymous visitor is active on the website. So we can't use an identifier like email-address. In this case, Luma has decided to use the Experience Cloud ID (ECID) as the primary identifier.
 
 Lastly, it's important to distinguish the channel on which data was captured. In this case, we'll be talking about Website Interactions and the schema that needs to be defined needs to reflect ```Where``` the interaction data was captured. The channel will also have an important role in influencing what data is captured. As such, it's a best practice to define schema's for every combination of channel, primary identifier and type of data collected.
 
@@ -290,8 +290,8 @@ Based on the above, you'll need to configure a Schema in Adobe Experience Platfo
 
 Log in to Adobe Experience Platform by going to this URL: [https://platform.adobe.com](https://platform.adobe.com)
 
-  * Your Username is: PS4-XX@adobeeventlab.com (XX = your computer number)
-  * Your Password is: Adobe#Event10
+  * Your Username is: your Adobe ID
+  * Your Password is: your personbal password
 
 After logging in, you'll land on the homepage of Adobe Experience Platform.
 
@@ -320,18 +320,18 @@ Look at your computer and locate the computer's number.
 
 Example:
 
-  * Computer 1 > replace XX with 01
-  * Computer 75 > replace XX with 75
+  * Number 1 > replace XX with 01
+  * Number 75 > replace XX with 75
 
 As the name for our schema, we'll use this:
-**LAB8 - XX - Website Interaction Schema**
+**SPP - XX - Website Interaction Schema**
 
-Replace XX with your computer's number. 
+Replace XX with your number. 
 
 Example:
 
-  * Computer 1 > LAB8 - **01** - Website Interaction Schema
-  * Computer 75 > LAB8 - **75** - Website Interaction Schema
+  * Number 1 > SPP - **01** - Website Interaction Schema
+  * Number 75 > SPP - **75** - Website Interaction Schema
 
 That should give you something like this:
 ![Data Ingestion](./images/schemanameee.png)
@@ -374,7 +374,7 @@ To make that information part of your schema, you need to add the following Mixi
   * ExperienceEvent Web Details
   * ExperienceEvent Commerce Details
   * ExperienceEvent Environment Details
-  * BT Profile Identification EE (Primary and Secondary Identifiers)
+  * SPP Profile Identification EE (Primary and Secondary Identifiers)
 
 You can add these Mixins by clicking the ```+ Add```-button below the Class that you just defined.
 
@@ -416,11 +416,11 @@ Click the ```Add Mixin```-button to add the Mixin to your schema.
 
 ![Data Ingestion](./images/addmixin1.png)
 
-Next, add the Mixin **BT Profile Identification EE**.
+Next, add the Mixin **SPP Profile Identification EE**.
 
 Click the ```+ Add```-button to start adding a Mixin.
 
-In the "Add Mixin"-screen, select the Mixin ```BT Profile Identification EE```.
+In the "Add Mixin"-screen, select the Mixin ```SPP Profile Identification EE```.
 
 ![Data Ingestion](./images/btpdee.png)
 
@@ -428,11 +428,11 @@ Click the ```Add Mixin```-button to add the Mixin to your schema.
 
 ![Data Ingestion](./images/addmixin1.png)
 
-Lastly, add the Mixin **BT Product Interaction Details**.
+Lastly, add the Mixin **SPP Product Interaction Details**.
 
 Click the ```+ Add```-button to start adding a Mixin.
 
-In the "Add Mixin"-screen, select the Mixin ```BT Product Interaction Details```.
+In the "Add Mixin"-screen, select the Mixin ```SPP Product Interaction Details```.
 
 ![Data Ingestion](./images/btpidtl.png)
 
