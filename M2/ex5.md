@@ -265,4 +265,4 @@ Congrats, you've successfully completed the Segmentation exercise. Let's now hav
 
 ---
 
-[Next Step: Exercise 6 - See your Real-Time Customer Profile in action in the BT Call Center](./ex6.md)
+[Next Step: Exercise 6 - See your Real-Time Customer Profile in action in the Luma Call Center](./ex6.md)

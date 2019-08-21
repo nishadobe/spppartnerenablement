@@ -28,7 +28,7 @@ By clicking on "Find a Profile", a popup appears in which a namespace and an ID 
 
 ![Customer Profile](./images/findaprofilepopup.png)
 
-On the X-ray panel on your local BT website, you can find multiple identities. Every Identity is linked to a namespace. 
+On the X-ray panel on your local Luma website, you can find multiple identities. Every Identity is linked to a namespace. 
 
 ![Customer Profile](./images/identities.png)
 
@@ -43,10 +43,10 @@ On the X-ray panel, we can see 4 different combinations of ID's and Namespaces:
 | Mobile Number ID          | 0473622044-16042019-10 |
 
 With Adobe Experience Platform, all these ID's are as important as the other. Previously, before Adobe Experience Platform, the ECID was the most important ID in the Adobe context and all other ID's were linked to the ECID in a hierarchical relation. 
-With Adobe Experience Platform this is no longer the case, and every ID can be considered a primary identifier. Whether it really is the Primary Identifier is dependant of the solution you ask: if you ask the BT Call Center what the most important ID is, they will say: the mobile number. But if you ask the CRM team what the most important ID is, the answer will be the email-address. The thing is: Adobe Experience Platform understands this complexity and takes it away from you. Every solution, whether it's an Adobe solution or an external solution, will speak with Adobe Experience Platform by referring the ID they consider to be primary. And that simply works.
+With Adobe Experience Platform this is no longer the case, and every ID can be considered a primary identifier. Whether it really is the Primary Identifier is dependant of the solution you ask: if you ask the Luma Call Center what the most important ID is, they will say: the mobile number. But if you ask the CRM team what the most important ID is, the answer will be the email-address. The thing is: Adobe Experience Platform understands this complexity and takes it away from you. Every solution, whether it's an Adobe solution or an external solution, will speak with Adobe Experience Platform by referring the ID they consider to be primary. And that simply works.
 
 In this case, I'm taking my Email ID (vangeluw-12042019-10@adobe.com), and selecting the namespace of ```Email```.
-You should do the same and specify your Email ID, the Email ID that you used to register on your local BT website in the previous exercise.
+You should do the same and specify your Email ID, the Email ID that you used to register on your local Luma website in the previous exercise.
 
 ![Customer Profile](./images/popupecid.png)
 

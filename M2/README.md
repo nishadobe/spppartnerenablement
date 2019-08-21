@@ -19,9 +19,6 @@ In this exercise, we'll do a deep dive into the Unified Profile and Identity cap
 
 Luma wants to have a full, 360° overview of any customer in real-time and activate that real-time customer profile to all of its channels, including the offline channels such as the Luma Call Center or even Luma brick-and-mortar shops.
 
-### [Before we start](./info.md)
-Read through this info to know where to find usernames, passwords and computer numbers.
-
 ### [Exercise 1 - Visit the Luma website](./ex1.md)
 In this exercise, you'll follow a script and walk through the Luma website on your local machine.
 

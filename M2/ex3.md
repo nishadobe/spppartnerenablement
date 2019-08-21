@@ -9,7 +9,7 @@ The Real-Time Customer Profile can be consumed by all Adobe solutions, but also 
 
 #### Exercise 3.1 - Your Identifiers
 
-On the X-ray panel on your local BT website, you can find multiple identities. Every Identity is linked to a Namespace. 
+On the X-ray panel on your local Luma website, you can find multiple identities. Every Identity is linked to a Namespace. 
 
 ![Customer Profile](./images/identities.png)
 
@@ -38,7 +38,7 @@ Before sending any request to Platform, you need to be properly authenticated. T
 
 Make sure that you've got the right Environment selected before executing any call. You can check the currently selected Environment by verifying the Environment-dropdown list in the top right corner. 
 
-The selected Environment should be ```_Summit Tech Labs - JWT```.
+The selected Environment should be ```_SPP Partner Enablement - JWT```.
 
 ![Postman](./images/envselemea.png)
 
@@ -331,7 +331,7 @@ Also, when the X-ray panel shows ExperienceEvent information, it is using the be
                         "ecid": "90014021956975674902237594792029773083"
                     },
                     "productData": {
-                        "productImageUrl": "http://s7e4a.scene7.com/is/image/OmniPS/btee?fmt=png-alpha",
+                        "productImageUrl": "http://s7e4a.scene7.com/is/image/OmniPS/Lumaee?fmt=png-alpha",
                         "productInteraction": "productView",
                         "productName": "Broadband Deals"
                     }
@@ -375,7 +375,7 @@ Also, when the X-ray panel shows ExperienceEvent information, it is using the be
                         "ecid": "90014021956975674902237594792029773083"
                     },
                     "productData": {
-                        "productImageUrl": "http://s7e4a.scene7.com/is/image/OmniPS/btee?fmt=png-alpha",
+                        "productImageUrl": "http://s7e4a.scene7.com/is/image/OmniPS/Lumaee?fmt=png-alpha",
                         "productInteraction": "productView",
                         "productName": "TV & Broadband Deals"
                     }
@@ -419,7 +419,7 @@ Also, when the X-ray panel shows ExperienceEvent information, it is using the be
                         "ecid": "90014021956975674902237594792029773083"
                     },
                     "productData": {
-                        "productImageUrl": "http://s7e4a.scene7.com/is/image/OmniPS/btee?fmt=png-alpha",
+                        "productImageUrl": "http://s7e4a.scene7.com/is/image/OmniPS/Lumaee?fmt=png-alpha",
                         "productInteraction": "productView",
                         "productName": "SIM Only"
                     }
@@ -441,7 +441,7 @@ Also, when the X-ray panel shows ExperienceEvent information, it is using the be
                 },
                 "web": {
                     "webPageDetails": {
-                        "name": "BT Sport"
+                        "name": "Luma Sport"
                     }
                 },
                 "identityMap": {
@@ -455,7 +455,7 @@ Also, when the X-ray panel shows ExperienceEvent information, it is using the be
                 "_id": "1552565832270.8938",
                 "productListItems": [
                     {
-                        "SKU": "BT Sport"
+                        "SKU": "Luma Sport"
                     }
                 ],
                 "_platformlab05": {
@@ -463,9 +463,9 @@ Also, when the X-ray panel shows ExperienceEvent information, it is using the be
                         "ecid": "90014021956975674902237594792029773083"
                     },
                     "productData": {
-                        "productImageUrl": "http://s7e4a.scene7.com/is/image/OmniPS/btee?fmt=png-alpha",
+                        "productImageUrl": "http://s7e4a.scene7.com/is/image/OmniPS/Lumaee?fmt=png-alpha",
                         "productInteraction": "productView",
-                        "productName": "BT Sport"
+                        "productName": "Luma Sport"
                     }
                 },
                 "timestamp": "2019-04-16T20:32:17Z"
@@ -519,7 +519,7 @@ Also, when the X-ray panel shows ExperienceEvent information, it is using the be
                 },
                 "web": {
                     "webPageDetails": {
-                        "name": "BT Home"
+                        "name": "Luma Home"
                     }
                 },
                 "identityMap": {
@@ -553,7 +553,7 @@ Also, when the X-ray panel shows ExperienceEvent information, it is using the be
                 },
                 "web": {
                     "webPageDetails": {
-                        "name": "BT Home"
+                        "name": "Luma Home"
                     }
                 },
                 "identityMap": {
@@ -587,7 +587,7 @@ Also, when the X-ray panel shows ExperienceEvent information, it is using the be
                 },
                 "web": {
                     "webPageDetails": {
-                        "name": "BT Home"
+                        "name": "Luma Home"
                     }
                 },
                 "identityMap": {
@@ -621,7 +621,7 @@ Also, when the X-ray panel shows ExperienceEvent information, it is using the be
                 },
                 "web": {
                     "webPageDetails": {
-                        "name": "BT Home"
+                        "name": "Luma Home"
                     }
                 },
                 "identityMap": {
@@ -655,7 +655,7 @@ Also, when the X-ray panel shows ExperienceEvent information, it is using the be
                 },
                 "web": {
                     "webPageDetails": {
-                        "name": "BT Home"
+                        "name": "Luma Home"
                     }
                 },
                 "identityMap": {
@@ -757,7 +757,7 @@ Also, when the X-ray panel shows ExperienceEvent information, it is using the be
                 },
                 "web": {
                     "webPageDetails": {
-                        "name": "BT Home"
+                        "name": "Luma Home"
                     }
                 },
                 "identityMap": {
@@ -791,7 +791,7 @@ Also, when the X-ray panel shows ExperienceEvent information, it is using the be
                 },
                 "web": {
                     "webPageDetails": {
-                        "name": "BT Shop"
+                        "name": "Luma Shop"
                     }
                 },
                 "identityMap": {
@@ -805,7 +805,7 @@ Also, when the X-ray panel shows ExperienceEvent information, it is using the be
                 "_id": "8546656854971.625",
                 "productListItems": [
                     {
-                        "SKU": "BT Shop"
+                        "SKU": "Luma Shop"
                     }
                 ],
                 "_platformlab05": {
@@ -813,9 +813,9 @@ Also, when the X-ray panel shows ExperienceEvent information, it is using the be
                         "ecid": "90014021956975674902237594792029773083"
                     },
                     "productData": {
-                        "productImageUrl": "http://s7e4a.scene7.com/is/image/OmniPS/btee?fmt=png-alpha",
+                        "productImageUrl": "http://s7e4a.scene7.com/is/image/OmniPS/Lumaee?fmt=png-alpha",
                         "productInteraction": "productView",
-                        "productName": "BT Shop"
+                        "productName": "Luma Shop"
                     }
                 },
                 "timestamp": "2019-04-16T20:36:07Z"
@@ -969,7 +969,7 @@ Also, when the X-ray panel shows ExperienceEvent information, it is using the be
                 },
                 "web": {
                     "webPageDetails": {
-                        "name": "BT Shop"
+                        "name": "Luma Shop"
                     }
                 },
                 "identityMap": {
@@ -983,7 +983,7 @@ Also, when the X-ray panel shows ExperienceEvent information, it is using the be
                 "_id": "3259138635273.466",
                 "productListItems": [
                     {
-                        "SKU": "BT Shop"
+                        "SKU": "Luma Shop"
                     }
                 ],
                 "_platformlab05": {
@@ -991,9 +991,9 @@ Also, when the X-ray panel shows ExperienceEvent information, it is using the be
                         "ecid": "90014021956975674902237594792029773083"
                     },
                     "productData": {
-                        "productImageUrl": "http://s7e4a.scene7.com/is/image/OmniPS/btee?fmt=png-alpha",
+                        "productImageUrl": "http://s7e4a.scene7.com/is/image/OmniPS/Lumaee?fmt=png-alpha",
                         "productInteraction": "productView",
-                        "productName": "BT Shop"
+                        "productName": "Luma Shop"
                     }
                 },
                 "timestamp": "2019-04-16T20:36:25Z"

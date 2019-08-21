@@ -59,7 +59,7 @@ After selecting "Male", you'll see that an estimation of the segment's populatio
 
 ![Segmentation](./images/segmentpreview.png)
 
-Next, we should refine our segment a bit. I'd like to build a segment out of all male customers that have viewed the "BT Sport"-page.
+Next, we should refine our segment a bit. I'd like to build a segment out of all male customers that have viewed the "Luma Sport"-page.
 
 To build out this segment, you need to add an Experience Event. You can find all Experience Events by clicking on the ```Events``` - icon in the ```Segments``` - menu bar.
 
@@ -69,7 +69,7 @@ Next, you'll see the top level "Experience Events"-node. Click it.
 
 ![Segmentation](./images/see.png)
 
-To find customers that have visited the ```BT Sport``` - page, click on ```ExperienceEvent```.
+To find customers that have visited the ```Luma Sport``` - page, click on ```ExperienceEvent```.
 
 ![Segmentation](./images/comm_pv.png)
 
@@ -85,7 +85,7 @@ Drag and drop the ```Name```-object from the left ```Web Page Details``` - menu 
 
 ![Segmentation](./images/eewebpdtlname.png)
 
-The comparison parameter should be ```equals``` and in the input field, enter ```BT Sport```.
+The comparison parameter should be ```equals``` and in the input field, enter ```Luma Sport```.
 
 ![Segmentation](./images/pv.png)
 
@@ -100,7 +100,7 @@ Now you can see the full PQL-statement:
 
 ```
 person.gender in ["male"] and 
-(select var1 from xEvent where var1.web.webPageDetails.name.equals("BT Sport", false))
+(select var1 from xEvent where var1.web.webPageDetails.name.equals("Luma Sport", false))
 ```
 
 ![Segmentation](./images/pql.png)
@@ -117,7 +117,7 @@ Finally, let's give your segment a name and save it.
 
 As a naming convention, we'll use:
 
-  * **XX** - Male customers with interest in BT Sport
+  * **XX** - Male customers with interest in Luma Sport
 
 Please replace **XX** with your computer's number, which you can find on the desktop of your computer.
 
