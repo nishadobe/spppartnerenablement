@@ -179,7 +179,7 @@ Click the ```+ Add```-button to start adding a Mixin.
 
 In the "Add Mixin"-screen, select the Mixin ```SPP Profile Identification```.
 
-![Data Ingestion](./images/Lumapd.png)
+![Data Ingestion](./images/btpd.png)
 
 Click the ```Add Mixin```-button to add the Mixin to your schema.
 
@@ -212,6 +212,7 @@ Click on the field ```emailId```.
 By selecting the ```emailId```, the Field Properties for ```emailId``` are now shown on the right side of your screen.
 
 ![Data Ingestion](./images/fieldprop.png)
+![Data Ingestion](./images/fieldprop1.png)
 
 The last property of the field ```emailId``` is the checkbox for ```Identity```.
 
@@ -351,7 +352,7 @@ Click the ```Assign Class```-button to assign the class.
 
 You'll now see an overview of the minimal structure of your schema.
 
-![Data Ingestion](./images/classoverviewee.png)
+![Data Ingestion](./images/classoverviewee.png) 
 
 It's important to note that when eventually ingesting data against this schema, that some fields are required.
 For instance, the fields ```_id``` and ```timestamp``` are required fields.
@@ -465,6 +466,7 @@ Click on the field ```ecid```.
 By selecting the ```ecid```, the Field Properties for ```ecid``` are now shown on the right side of your screen.
 
 ![Data Ingestion](./images/fieldpropee.png)
+![Data Ingestion](./images/fieldpropee1.png)
 
 The last property of the field ```ecid``` is the checkbox for ```Identity```.
 
