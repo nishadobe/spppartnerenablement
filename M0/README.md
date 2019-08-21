@@ -18,7 +18,7 @@ MAMP comes in 2 versions: Free and Pro. For this enablement we'll be using the F
 Configuration of MAMP will be done in the next exercise.
 
 ### Exercise 1.1.2 - Download Demo Site Package
-Download the [demo site zip package](./downloads/spp_demo_site_v1.zip) to your computer, unzip it in a directory of your choice, f.i. on your Desktop:
+Download the [demo site zip package](./downloads/spp_demo_site_v2.zip) to your computer, unzip it in a directory of your choice, f.i. on your Desktop:
 
 ![MAMP Setup](./images/mamp_app6.png)
 
