@@ -1,16 +1,16 @@
-## Exercise 0 - Explore the BT website
+## Exercise 0 - Explore the Luma website
 
-In this exercise, you'll explore the BT website that is installed on your local machine.
+In this exercise, you'll explore the Luma website that is installed on your local machine.
 
-This site is currently untagged and doesn't send any data to Adobe Experience Platform.
+This site is currently tagged with a default Launch property and already sends data to Adobe Experience Platform.
 
-In this Tech Lab, you'll be configuring what is required to capture profile information and customer behavior from this website and stream it to Adobe Experience Platform.
+In this module, we'll have a look at what is required to capture profile information and customer behavior from this website and stream it to Adobe Experience Platform.
 
-The URL to access the BT website is [http://lab08.bt.com](http://lab08.bt.com).
- 
-### Exercise 0.1 - Explore BT website
+The URL to access the Luma website is [http://localhost:8888](http://localhost:8888).
+ Luma
+### Exercise 0.1 - Explore Luma website
 
-Go to to [http://lab08.bt.com](http://lab08.bt.com).
+Go to to [http://localhost:8888](http://localhost:8888).
 
 ![Demo](./images/1.png)
 
@@ -18,7 +18,7 @@ In the site's menu, click on Broadband Deals to visit that page.
 
 ![Demo](./images/2.png)
 
-In the site's menu, click on TV & Broadband Deals to visit that page.
+In the site's menu, click on Sports to visit that page.
 
 ![Demo](./images/3.png)
 

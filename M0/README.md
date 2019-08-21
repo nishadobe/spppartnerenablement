@@ -43,7 +43,7 @@ Servers are now running, and you can access the Start Page by clicking on 'Open 
 
 ![MAMP Setup](./images/mamp_localhost.png)
 
-MAMP has a default website installed on a specific location on your computer. We need to replace the default website with our 'La Boutique' demo website.
+MAMP has a default website installed on a specific location on your computer. We need to replace the default website with our 'Luma Telco' demo website.
 
 **Mac:** On your MacBook, go to Applications and locate the MAMP folder in the Applications list.
 
@@ -63,7 +63,7 @@ MAMP has a default website installed on a specific location on your computer. We
 
 ![MAMP Setup](./images/mamp_app4.png)
 
-Go to the folder where you unzipped the zip-package of the La Boutique demo website. Copy all files and paste them in the 'htdocs' folder.
+Go to the folder where you unzipped the zip-package of the Luma Telco demo website. Copy all files and paste them in the 'htdocs' folder.
 
 ![MAMP Setup](./images/mamp_app6.png)
 ![MAMP Setup](./images/mamp_app7.png)
@@ -72,7 +72,7 @@ Go back to your web browser.
 
 ![MAMP Setup](./images/mamp_localhost.png)
 
-Click on 'My Website' to navigate to the La Boutique demo website.
+Click on 'My Website' to navigate to the Luma Telco demo website.
 
 You should now see this website:
 
@@ -82,14 +82,12 @@ You can always Start and Stop MAMP by going back to the MAMP Application:
 
 ![MAMP Setup](./images/mamp2.png)
 
-One you've started your web server, you can directly access the La Boutique website by going to <a href="http://localhost:8888/index.html" target="_blank">http://localhost:8888/index.html</a>
+One you've started your web server, you can directly access the Luma Telco website by going to <a href="http://localhost:8888/index.html" target="_blank">http://localhost:8888/index.html</a>
 
 
-If the La Boutique website is displayed, then you've successfully completed this exercise.
+If the Luma Telco website is displayed, then you've successfully completed this exercise.
 
 Congratulations!
-
-[Next Step: Configure Launch for your website](../launch/README.md)
 
 [Go Back to All Modules](../README.md)
 

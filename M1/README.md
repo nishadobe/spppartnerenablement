@@ -22,9 +22,6 @@ In order to act immediately and appropriately upon customer behavior, the behavi
 Luma would like to activate that data to several solutions like Adobe Target and Adobe Audience Manager, but also to channels like a call center or an in-store environment.
 In this lab, we'll focus on capturing the data as soon as possible.
 
-### [Before we start](./info.md)
-Read through this info to know where to find usernames, passwords and computer numbers.
-
 ### [Exercise 0 - Explore the Luma website](./ex0.md)
 In this exercise, you'll explore the Luma website that is installed on your local machine.
 
